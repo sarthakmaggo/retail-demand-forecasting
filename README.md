@@ -25,31 +25,6 @@ Designed for data-driven retail management, it empowers users to:
 
 ---
 
-## 🗂️ Project Structure  
-
-```
-retail-demand-forecasting/
-│
-├─ README.md                # Main documentation
-├─ requirements.txt         # Python dependencies
-├─ .gitignore               # Ignore virtualenv, .pyc files, datasets, etc.
-├─ data/                    # Optional, store sample CSVs (not too large)
-│   └─ sample_data.csv
-├─ models/                  # Store your transformer/XGBoost/scaler files
-│   ├─ transformer_model.keras
-│   ├─ xgb_model.pkl
-│   ├─ scaler.pkl
-│   └─ training_columns.pkl
-├─ app.py                   # Streamlit app
-├─ utils/                   # Any helper scripts for preprocessing, MAPE, etc.
-│   └─ preprocessing.py
-└─ notebooks/               # Optional, exploratory notebooks / Colab links
-    └─ model_training.ipynb
-```
-
-
-
----
 
 ## ⚙️ Tech Stack  
 
@@ -58,16 +33,14 @@ retail-demand-forecasting/
 | **Frontend / UI** | Streamlit |
 | **Backend / ML** | Python, XGBoost, Transformer (Keras/TensorFlow) |
 | **Data Handling** | Pandas, NumPy, Scikit-learn |
-| **Visualization** | Matplotlib, Seaborn, Plotly |
-| **Deployment** | Streamlit Cloud |
-
+| **Visualization** | Matplotlib, Seabor
 ---
 
 ## 🚀 Quick Start  
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/DhawalThombare37/Retail-Demand-Forecasting-Streamlit-App.git
+git clone https://github.com/sarthakmaggo/retail-demand-forecasting.git
 cd Retail-Demand-Forecasting-Streamlit-App
 ```
 ### 2️⃣ Create and Activate Virtual Environment
